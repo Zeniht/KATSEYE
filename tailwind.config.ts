@@ -6,12 +6,11 @@ export default {
   theme: {
     extend: {
       borderRadius: {
-        lg: ".5625rem", /* 9px */
-        md: ".375rem", /* 6px */
-        sm: ".1875rem", /* 3px */
+        lg: ".5625rem",
+        md: ".375rem",
+        sm: ".1875rem",
       },
       colors: {
-        // Flat / base colors (regular buttons)
         background: "hsl(var(--background) / <alpha-value>)",
         foreground: "hsl(var(--foreground) / <alpha-value>)",
         border: "hsl(var(--border) / <alpha-value>)",
@@ -81,11 +80,26 @@ export default {
           busy: "rgb(239 68 68)",
           offline: "rgb(156 163 175)",
         },
+        y2k: {
+          pink: "hsl(var(--y2k-pink) / <alpha-value>)",
+          purple: "hsl(var(--y2k-purple) / <alpha-value>)",
+          blue: "hsl(var(--y2k-blue) / <alpha-value>)",
+          cyan: "hsl(var(--y2k-cyan) / <alpha-value>)",
+          yellow: "hsl(var(--y2k-yellow) / <alpha-value>)",
+          lime: "hsl(var(--y2k-lime) / <alpha-value>)",
+        },
       },
       fontFamily: {
         sans: ["var(--font-sans)"],
         serif: ["var(--font-serif)"],
         mono: ["var(--font-mono)"],
+        pixel: ["'Press Start 2P'", "cursive"],
+        retro: ["'VT323'", "monospace"],
+        handwriting: ["'Architects Daughter'", "cursive"],
+        comic: ["'Comic Neue'", "cursive"],
+        marker: ["'Permanent Marker'", "cursive"],
+        scribble: ["'Gloria Hallelujah'", "cursive"],
+        indie: ["'Indie Flower'", "cursive"],
       },
       keyframes: {
         "accordion-down": {
@@ -96,10 +110,61 @@ export default {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        blink: {
+          "0%, 100%": { opacity: "1" },
+          "50%": { opacity: "0" },
+        },
+        float: {
+          "0%, 100%": { transform: "translateY(0px)" },
+          "50%": { transform: "translateY(-6px)" },
+        },
+        wiggle: {
+          "0%, 100%": { transform: "rotate(-2deg)" },
+          "50%": { transform: "rotate(2deg)" },
+        },
+        sparkle: {
+          "0%, 100%": { opacity: "1", transform: "scale(1)" },
+          "50%": { opacity: "0.5", transform: "scale(0.8)" },
+        },
+        marquee: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
+        spin: {
+          from: { transform: "rotate(0deg)" },
+          to: { transform: "rotate(360deg)" },
+        },
+        rainbow: {
+          "0%": { backgroundPosition: "0% 50%" },
+          "50%": { backgroundPosition: "100% 50%" },
+          "100%": { backgroundPosition: "0% 50%" },
+        },
+        pulse: {
+          "0%, 100%": { opacity: "1" },
+          "50%": { opacity: "0.6" },
+        },
+        bounce: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-10px)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        blink: "blink 1s step-end infinite",
+        float: "float 3s ease-in-out infinite",
+        wiggle: "wiggle 0.5s ease-in-out infinite",
+        sparkle: "sparkle 1.5s ease-in-out infinite",
+        marquee: "marquee 20s linear infinite",
+        "spin-slow": "spin 8s linear infinite",
+        rainbow: "rainbow 3s ease infinite",
+        pulse: "pulse 2s ease-in-out infinite",
+        bounce: "bounce 1s ease-in-out infinite",
+      },
+      backgroundImage: {
+        'gradient-rainbow': 'linear-gradient(90deg, #ff6b9d, #c44cff, #6b9fff, #4cffb5, #ffeb4c, #ff6b9d)',
+        'gradient-y2k': 'linear-gradient(135deg, #ff6b9d 0%, #c44cff 25%, #6b9fff 50%, #4cffb5 75%, #ff6b9d 100%)',
+        'gradient-holographic': 'linear-gradient(45deg, #ff6b9d, #c44cff, #6b9fff, #c44cff, #ff6b9d)',
       },
     },
   },
