@@ -74,7 +74,7 @@ export default function ImageGallery({
               />
             </button>
             {image.caption && (
-              <p className="mt-2 font-handwriting text-xs text-center text-gray-600 dark:text-gray-300">
+              <p className="mt-2 font-retro text-xs text-center text-gray-600 dark:text-gray-300">
                 {image.caption}
               </p>
             )}
