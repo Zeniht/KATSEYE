@@ -258,7 +258,7 @@ KATSEYE is basically the blueprint for what global pop looks like when it goes f
               <NavigationWidget items={navItems} activeId="home" rotate={1} />
 
               <SpotifyEmbed 
-                spotifyUri="https://open.spotify.com/artist/7wYLyFcRT2lNXFdDHHfHmd"
+                spotifyUri="https://open.spotify.com/artist/3c0gDdb9lhnHGFtP4prQpn"
                 title="Stream KATSEYE!"
                 rotate={-2}
               />
