@@ -93,9 +93,9 @@ KATSEYE is basically the blueprint for what global pop looks like when it goes f
     },
     {
       id: "2",
-      title: "GNARLY Dance Practice 💃",
-      url: "https://www.youtube.com/watch?v=xrm7PP1mbtI",
-      thumbnail: "https://img.youtube.com/vi/xrm7PP1mbtI/maxresdefault.jpg",
+      title: "KATSEYE GABRIELA LIVE @ LOLLAPALOOZA 💃",
+      url: "https://www.youtube.com/watch?v=CINpzyWIGoQ&list=RDCINpzyWIGoQ&start_radio=1",
+      thumbnail: "https://img.youtube.com/vi/CINpzyWIGoQ/maxresdefault.jpg",
     },
     {
       id: "3",
@@ -111,9 +111,9 @@ KATSEYE is basically the blueprint for what global pop looks like when it goes f
     },
     {
       id: "5",
-      title: "KATSEYE 💖 EYEKONS",
-      url: "https://www.youtube.com/watch?v=vrGHZvKR0B0",
-      thumbnail: "https://img.youtube.com/vi/vrGHZvKR0B0/maxresdefault.jpg",
+      title: "Into the GAP x KATSEYE ad",
+      url: "https://www.youtube.com/watch?v=IwzF26o0AuU",
+      thumbnail: "https://img.youtube.com/vi/IwzF26o0AuU/maxresdefault.jpg",
     },
     {
       id: "6",
@@ -128,7 +128,7 @@ KATSEYE is basically the blueprint for what global pop looks like when it goes f
     {
       id: "1",
       text: "Twitter/X",
-      url: "https://twitter.com/katseye",
+      url: "https://x.com/katseyeworld",
       icon: "heart" as const,
     },
     {
@@ -151,14 +151,14 @@ KATSEYE is basically the blueprint for what global pop looks like when it goes f
     },
     {
       id: "5",
-      text: "Spotify Profile",
-      url: "https://open.spotify.com/artist/3c0gDdb9lhnHGFtP4prQpn",
+      text: "Member Profile",
+      url: "https://kprofiles.com/katseye-members-profile/",
       icon: "heart" as const,
     },
     {
       id: "6",
       text: "Ling's Final Paper!",
-      url: "https://docs.google.com/document/d/1HauUp6D-A__pbspAeO9Q0C_YSO4qkGvZ/edit?usp=sharing&ouid=105853597808120075318&rtpof=true&sd=true",
+      url: "https://docs.google.com/document/d/1iZhx4WZWuKbFBoMezOzfQ_HEK-BYaZkA/edit?usp=sharing&ouid=105853597808120075318&rtpof=true&sd=true",
       icon: "star" as const,
     },
   ];
@@ -335,7 +335,7 @@ KATSEYE is basically the blueprint for what global pop looks like when it goes f
 
               <div className="relative">
                 <StickyNote
-                  content="need to compare with other global groups for context"
+                  content="I am Sophia. Sophia is me. <33"
                   color="green"
                   rotate={2}
                   className="absolute -top-2 -right-2 z-10 hidden lg:block"
