@@ -267,7 +267,6 @@ KATSEYE is basically the blueprint for what global pop looks like when it goes f
                 content="uno? uno??? UNO!!!!!"
                 color="yellow"
                 rotate={3}
-                className="hidden md:block"
               />
             </div>
 
