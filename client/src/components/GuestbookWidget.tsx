@@ -64,7 +64,7 @@ export default function GuestbookWidget({
             data-testid="guestbook-name-input"
           />
           <textarea
-            placeholder="leave a message!"
+            placeholder="how do u see urself in KATSEYE?"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             className="w-full px-3 py-2 rounded-md border-2 border-y2k-pink/30 bg-background font-comic text-sm resize-none h-16 focus:outline-none focus:border-y2k-pink"
