@@ -265,7 +265,7 @@ KATSEYE is basically the blueprint for what global pop looks like when it goes f
 
               <StickyNote
                 content="uno? uno??? UNO!!!!!"
-                color="purple"
+                color="yellow"
                 rotate={3}
                 className="hidden md:block"
               />
